@@ -1,0 +1,111 @@
+html  {
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font: 20px Monstserrat, sans-serif;
+    line-height: 1.8;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: rgb(39, 39, 84);
+    color: #ffffff;
+}
+
+
+.bg-2 {
+    background-color: rgb(17, 17, 51);
+    color: #ffffff;
+}
+
+
+.bg-3 {
+    background-color: rgb(255, 255, 255);
+    color: #373737;
+}
+
+
+.bg-4 {
+    background-color: rgb(29, 29, 33);
+    color: #ffffff;
+}
+
+.container-fluid {
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+modal button.close {
+    right: 0;
+    outline: 0;
+}
+    
+    #gallery-lightbox{
+    margin-top:100;
+    }
+ 
+    #gallery-lightbox img {
+        height: 350px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      
+      #gallery-lightbox img:hover {
+        opacity: 0.9;
+        transition: 0.5s ease-out;
+      }
+     
+    .carousel-inner img {
+        width: 100%;
+      }
+    .carousel .carousel-item {
+        height: 500px;
+      }
+      
+      .carousel-item img {
+          position: absolute;
+          object-fit: cover;
+          top: 0;
+          left: 0;
+          min-height: 500px;
+      }
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li {
+    float: left;
+}
+
+.navbar-nav li a:hover {
+    color: #001c00 !important;
+}
+
+.gallery {
+    width: 100%;
+
+    box-shadow: #373737 2px 2px 5px;
+}
+
+.imgDiv{
+    height: 350px;
+    overflow: hidden;
+}
+
